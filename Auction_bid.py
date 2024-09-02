@@ -1,5 +1,20 @@
 import art
-print(art.logo)
+logo = '''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | '''-.
+                          |       |_| |_             _| |_..-''
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
+
+# print(art.logo)
+print(logo)
 print("Welcome to the Secret Auction Program..!")
 # bidding = {}
 # bidding = {
