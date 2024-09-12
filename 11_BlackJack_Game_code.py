@@ -72,11 +72,11 @@ while Black_Jack:
         for j in range(0, 2):
             deal_cards.append(random.choice(cards))
         deal_total = sum(deal_cards)
-        dummy_deal.append(deal_cards[1])
-        if deal_total == 22 and dummy_deal[0] == 11:
-            deal_cards[1] = 1
-        deal_total = sum(deal_cards)
-        print(f"Computer's first card: {deal_cards[0]}, {deal_cards}")
+        # dummy_deal.append(deal_cards[1])
+        # if deal_total == 22 and dummy_deal[0] == 11:
+        #     deal_cards[1] = 1
+        # deal_total = sum(deal_cards)
+        print(f"Computer's first card: {deal_cards[0]}")
     else:
         print("Good Bye..!")
         Black_Jack = False
